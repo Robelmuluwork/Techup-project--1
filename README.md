@@ -39,7 +39,8 @@ Navigate to the project directory:
 ## USAGE
 1.Start the timer by running the application:
    ````bash
-   Start the timer by running the application:
+   node src/app.js
+
    ````
 2.Enter commands to control the timer and view information.
     **Commands
