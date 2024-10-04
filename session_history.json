@@ -88,5 +88,11 @@
     "totalBreakTime": 60,
     "intervalsCompleted": 2,
     "date": "2024-10-04T21:33:08.294Z"
+  },
+  {
+    "totalWorkTime": 60,
+    "totalBreakTime": 0,
+    "intervalsCompleted": 1,
+    "date": "2024-10-04T21:38:26.587Z"
   }
 ]
