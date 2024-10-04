@@ -1,4 +1,3 @@
-// sessionUtils.js
 const fs = require("fs");
 
 let sessionHistory = [];

@@ -10,5 +10,83 @@
     "totalBreakTime": 0,
     "intervalsCompleted": 0,
     "date": "2024-10-03T16:48:58.919Z"
+  },
+  {
+    "totalWorkTime": 0,
+    "totalBreakTime": 0,
+    "intervalsCompleted": 0,
+    "date": "2024-10-03T22:57:53.566Z"
+  },
+  {
+    "totalWorkTime": 0,
+    "totalBreakTime": 0,
+    "intervalsCompleted": 0,
+    "date": "2024-10-03T23:04:12.873Z"
+  },
+  {
+    "totalWorkTime": 0,
+    "totalBreakTime": 0,
+    "intervalsCompleted": 0,
+    "date": "2024-10-03T23:04:21.528Z"
+  },
+  {
+    "totalWorkTime": 0,
+    "totalBreakTime": 0,
+    "intervalsCompleted": 0,
+    "date": "2024-10-03T23:11:25.274Z"
+  },
+  {
+    "totalWorkTime": 0,
+    "totalBreakTime": 0,
+    "intervalsCompleted": 0,
+    "date": "2024-10-03T23:11:43.897Z"
+  },
+  {
+    "totalWorkTime": 0,
+    "totalBreakTime": 0,
+    "intervalsCompleted": 0,
+    "date": "2024-10-03T23:11:48.295Z"
+  },
+  {
+    "totalWorkTime": 0,
+    "totalBreakTime": 0,
+    "intervalsCompleted": 0,
+    "date": "2024-10-03T23:12:41.611Z"
+  },
+  {
+    "totalWorkTime": 0,
+    "totalBreakTime": 0,
+    "intervalsCompleted": 0,
+    "date": "2024-10-03T23:12:49.317Z"
+  },
+  {
+    "totalWorkTime": 0,
+    "totalBreakTime": 0,
+    "intervalsCompleted": 0,
+    "date": "2024-10-03T23:14:10.660Z"
+  },
+  {
+    "totalWorkTime": 0,
+    "totalBreakTime": 0,
+    "intervalsCompleted": 0,
+    "date": "2024-10-03T23:14:20.016Z"
+  },
+  {
+    "totalWorkTime": 60,
+    "totalBreakTime": 0,
+    "intervalsCompleted": 1,
+    "date": "2024-10-04T21:32:06.745Z"
+  },
+  {
+    "totalWorkTime": 60,
+    "totalBreakTime": 60,
+    "intervalsCompleted": 1,
+    "date": "2024-10-04T21:33:07.281Z"
+  },
+  {
+    "totalWorkTime": 120,
+    "totalBreakTime": 60,
+    "intervalsCompleted": 2,
+    "date": "2024-10-04T21:33:08.294Z"
   }
 ]

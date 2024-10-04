@@ -1,48 +1,40 @@
-//hard coded values for work duration, short break duration, and long break duration
-let workDuration = 1 * 60; // 25 minutes in seconds
-let shortBreakDuration = 1 * 60; // 5 minutes in seconds
-let longBreakDuration = 2 * 60; // 15 minutes in seconds
+const { displayTime } = require("./displayUtils");
+const { saveSessionHistory } = require("./sessionUtils");
 
-//variables initialized to track the timer
+// Hard coded values for work duration, short break duration, and long break duration
+let workDuration = 1 * 60; // 1 minute for testing purposes
+let shortBreakDuration = 1 * 60; // 1 minute for testing purposes
+let longBreakDuration = 2 * 60; // 2 minutes for testing purposes
+
+// Variables initialized to track the timer
 let intervalCount = 0;
 let totalWorkTime = 0;
 let totalBreakTime = 0;
 
-let remainingTime = workDuration; //time starts with work duration
-let timer; //to store the interval ID
+let remainingTime = workDuration; // Time starts with work duration
+let timer; // To store the interval ID
 
-//variables initialized to track the timer toggle state
-let isWorkInterval = true; // to keep track of work or break cycle
-let isRunning = false; // to track if the timer is runnig
+// Variables initialized to track the timer toggle state
+let isWorkInterval = true; // To keep track of work or break cycle
+let isRunning = false; // To track if the timer is running
 
 /**
  * Displays the current time remaining on the timer.
  *
  * @returns {void}
  */
-function displayTime() {
-  const minutes = Math.floor(remainingTime / 60);
-  const seconds = remainingTime % 60;
-  const timeString = `${String(minutes).padStart(2, "0")}:${String(
-    seconds
-  ).padStart(2, "0")}`;
-
-  console.clear(); // Clear the console to show the updated time
-  console.log(`Time Remaining: ${timeString}`);
-
-  console.log(
-    isWorkInterval ? "Current Interval: Work" : "Current Interval: Break"
+function displayTimer() {
+  displayTime(
+    remainingTime,
+    isWorkInterval,
+    totalWorkTime,
+    totalBreakTime,
+    intervalCount
   );
-
-  console.log(`Total Work Time: ${totalWorkTime / 60} minutes`);
-
-  console.log(`Total Break Time: ${totalBreakTime / 60} minutes`);
-
-  console.log(`Intervals Completed: ${intervalCount}`);
 }
 
 /**
- * starts the countdown timer for the current interval
+ * Starts the countdown timer for the current interval
  *
  * @returns {void}
  */
@@ -51,19 +43,20 @@ function startTimer() {
   isRunning = true;
   timer = setInterval(() => {
     remainingTime--;
-    displayTime();
+    displayTimer();
 
     if (remainingTime <= 0) {
       clearInterval(timer);
       isRunning = false;
       switchInterval();
-      startTimer(); //automatically start the next interval
+      startTimer(); // Automatically start the next interval
     }
   }, 1000);
 }
 
 /**
- * pause the coutdown timer
+ * Pauses the countdown timer
+ *
  * @returns {void}
  */
 function pauseTimer() {
@@ -74,7 +67,7 @@ function pauseTimer() {
 }
 
 /**
- * resets the timer and all intervals
+ * Resets the timer and all intervals
  *
  * @returns {void}
  */
@@ -84,37 +77,39 @@ function resetTimer() {
   remainingTime = workDuration;
   intervalCount = 0;
   console.log("Timer reset");
-  displayTime();
+  displayTimer();
 }
 
 /**
- * switches between work and break intervals and resets the timer duratin
+ * Switches between work and break intervals and resets the timer duration
  *
  * @returns {void}
  */
 function switchInterval() {
   if (isWorkInterval) {
-    totalWorkTime += workDuration;
-    console.log("work interval completed 👏! taking short break 😩😪🥱😴 ");
-    intervalCount++;
+    totalWorkTime += workDuration; // Update total work time
+    console.log("Work interval completed 👏! Taking short break 😩😪🥱😴");
+    intervalCount++; // Increment the interval count
     remainingTime =
       intervalCount % 4 === 0 ? longBreakDuration : shortBreakDuration;
   } else {
     totalBreakTime +=
       intervalCount % 4 === 0 ? longBreakDuration : shortBreakDuration;
-    console.log("short break is over 🥳! back to work 💼💻💯");
+    console.log("Short break is over 🥳! Back to work 💼💻💯");
   }
-  isWorkInterval = !isWorkInterval; //toggle work and break interval
-  displayTime();
+  isWorkInterval = !isWorkInterval; // Toggle work and break interval
+  displayTimer();
+
+  // Save the session history after each interval switch
+  saveSessionHistory(totalWorkTime, totalBreakTime, intervalCount);
 }
 
 /**
- * handles usert input commands for startting, pausing,resetting, and showing status
+ * Handles user input commands for starting, pausing, resetting, and showing status
  *
- * @param {string} command entered by the user
+ * @param {string} command Entered by the user
  * @returns {void}
  */
-
 function handleUserInput(command) {
   switch (command.trim()) {
     case "start":
@@ -127,7 +122,7 @@ function handleUserInput(command) {
       resetTimer();
       break;
     case "status":
-      displayTime();
+      displayTimer();
       break;
     case "help":
       console.log(`Available commands:
@@ -138,7 +133,7 @@ function handleUserInput(command) {
                                       -help: shows available commands`);
       break;
     default:
-      console.log("unknown commands. type 'help' for a list of commands");
+      console.log("Unknown command. Type 'help' for a list of commands.");
   }
 }
 
