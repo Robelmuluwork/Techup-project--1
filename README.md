@@ -15,6 +15,7 @@ A simple Pomodoro timer implemented in JavaScript that helps manage your work an
 ## Features
 
 - Track work and break intervals.
+- View total work time and total break time.
 - Save session history in a JSON file.
 - Simple command-line interface for user interaction.
 
