@@ -1,4 +1,4 @@
-# Pomodoro Timer
+# Pomodoro Timer CLI
 
 A simple Pomodoro timer implemented in JavaScript that helps manage your work and break intervals based on the Pomodoro Technique. This project allows users to track their total work and break time while providing session history.
 
