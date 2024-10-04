@@ -45,15 +45,15 @@ Navigate to the project directory:
 2.Enter commands to control the timer and view information.
     
 ## Commands
-   - **start: Start the timer
+   - **start:** Start the timer
    
-   -pause: Pause the timer.
+   -**pause:** Pause the timer.
    
-   -reset: Reset the timer and intervals.
+   -**reset:** Reset the timer and intervals.
    
-   -status: Show the current timer status, including remaining time and total work/break time.
+   -**status:** Show the current timer status, including remaining time and total work/break time.
    
-   -help: Display available commands.
+   -**help:** Display available commands.
 ## Session History
    The timer saves session history to a session_history.json file.
    This file contains records of your total work time, total break time, intervals completed, and 
