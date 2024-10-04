@@ -43,7 +43,8 @@ Navigate to the project directory:
 
    ````
 2.Enter commands to control the timer and view information.
-    **Commands
+    
+## Commands
    -start: Start the timer.
    -pause: Pause the timer.
    -reset: Reset the timer and intervals.
