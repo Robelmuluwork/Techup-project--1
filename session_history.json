@@ -94,5 +94,689 @@
     "totalBreakTime": 0,
     "intervalsCompleted": 1,
     "date": "2024-10-04T21:38:26.587Z"
+  },
+  {
+    "totalWorkTime": 60,
+    "totalBreakTime": 0,
+    "intervalsCompleted": 1,
+    "date": "2024-10-04T22:18:31.886Z"
+  },
+  {
+    "totalWorkTime": 0,
+    "totalBreakTime": 0,
+    "intervalsCompleted": 0,
+    "date": "2024-10-04T22:25:34.896Z"
+  },
+  {
+    "totalWorkTime": 60,
+    "totalBreakTime": 0,
+    "intervalsCompleted": 1,
+    "date": "2024-10-04T22:26:47.499Z"
+  },
+  {
+    "totalWorkTime": 60,
+    "totalBreakTime": 60,
+    "intervalsCompleted": 1,
+    "date": "2024-10-04T22:27:48.060Z"
+  },
+  {
+    "totalWorkTime": 120,
+    "totalBreakTime": 60,
+    "intervalsCompleted": 2,
+    "date": "2024-10-04T22:27:49.081Z"
+  },
+  {
+    "totalWorkTime": 60,
+    "totalBreakTime": 0,
+    "intervalsCompleted": 1,
+    "date": "2024-10-05T12:25:45.065Z"
+  },
+  {
+    "totalWorkTime": 0,
+    "totalBreakTime": 0,
+    "intervalsCompleted": 0,
+    "date": "2024-10-05T12:28:11.715Z"
+  },
+  {
+    "totalWorkTime": 0,
+    "totalBreakTime": 0,
+    "intervalsCompleted": 0,
+    "date": "2024-10-05T12:36:42.583Z"
+  },
+  {
+    "totalWorkTime": 60,
+    "totalBreakTime": 0,
+    "intervalsCompleted": 1,
+    "date": "2024-10-05T12:41:33.329Z"
+  },
+  {
+    "totalWorkTime": 60,
+    "totalBreakTime": 60,
+    "intervalsCompleted": 1,
+    "date": "2024-10-05T12:42:33.903Z"
+  },
+  {
+    "totalWorkTime": 120,
+    "totalBreakTime": 60,
+    "intervalsCompleted": 2,
+    "date": "2024-10-05T12:42:34.917Z"
+  },
+  {
+    "totalWorkTime": 120,
+    "totalBreakTime": 120,
+    "intervalsCompleted": 2,
+    "date": "2024-10-05T12:43:35.521Z"
+  },
+  {
+    "totalWorkTime": 180,
+    "totalBreakTime": 120,
+    "intervalsCompleted": 3,
+    "date": "2024-10-05T12:43:36.537Z"
+  },
+  {
+    "totalWorkTime": 180,
+    "totalBreakTime": 180,
+    "intervalsCompleted": 3,
+    "date": "2024-10-05T12:44:37.229Z"
+  },
+  {
+    "totalWorkTime": 240,
+    "totalBreakTime": 180,
+    "intervalsCompleted": 4,
+    "date": "2024-10-05T12:44:38.251Z"
+  },
+  {
+    "totalWorkTime": 240,
+    "totalBreakTime": 300,
+    "intervalsCompleted": 4,
+    "date": "2024-10-05T12:46:39.407Z"
+  },
+  {
+    "totalWorkTime": 300,
+    "totalBreakTime": 300,
+    "intervalsCompleted": 5,
+    "date": "2024-10-05T12:46:40.450Z"
+  },
+  {
+    "totalWorkTime": 300,
+    "totalBreakTime": 360,
+    "intervalsCompleted": 5,
+    "date": "2024-10-05T12:47:41.219Z"
+  },
+  {
+    "totalWorkTime": 360,
+    "totalBreakTime": 360,
+    "intervalsCompleted": 6,
+    "date": "2024-10-05T12:47:42.327Z"
+  },
+  {
+    "totalWorkTime": 360,
+    "totalBreakTime": 420,
+    "intervalsCompleted": 6,
+    "date": "2024-10-05T12:48:43.389Z"
+  },
+  {
+    "totalWorkTime": 420,
+    "totalBreakTime": 420,
+    "intervalsCompleted": 7,
+    "date": "2024-10-05T12:48:44.412Z"
+  },
+  {
+    "totalWorkTime": 60,
+    "totalBreakTime": 0,
+    "intervalsCompleted": 1,
+    "date": "2024-10-05T12:59:49.920Z"
+  },
+  {
+    "totalWorkTime": 60,
+    "totalBreakTime": 0,
+    "intervalsCompleted": 1,
+    "date": "2024-10-05T13:20:30.699Z"
+  },
+  {
+    "totalWorkTime": 60,
+    "totalBreakTime": 60,
+    "intervalsCompleted": 1,
+    "date": "2024-10-05T13:21:31.271Z"
+  },
+  {
+    "totalWorkTime": 120,
+    "totalBreakTime": 60,
+    "intervalsCompleted": 2,
+    "date": "2024-10-05T13:21:32.288Z"
+  },
+  {
+    "totalWorkTime": 120,
+    "totalBreakTime": 120,
+    "intervalsCompleted": 2,
+    "date": "2024-10-05T13:22:32.998Z"
+  },
+  {
+    "totalWorkTime": 180,
+    "totalBreakTime": 120,
+    "intervalsCompleted": 3,
+    "date": "2024-10-05T13:22:34.033Z"
+  },
+  {
+    "totalWorkTime": 180,
+    "totalBreakTime": 180,
+    "intervalsCompleted": 3,
+    "date": "2024-10-05T13:23:34.564Z"
+  },
+  {
+    "totalWorkTime": 240,
+    "totalBreakTime": 180,
+    "intervalsCompleted": 4,
+    "date": "2024-10-05T13:23:35.590Z"
+  },
+  {
+    "totalWorkTime": 240,
+    "totalBreakTime": 300,
+    "intervalsCompleted": 4,
+    "date": "2024-10-05T13:25:36.686Z"
+  },
+  {
+    "totalWorkTime": 300,
+    "totalBreakTime": 300,
+    "intervalsCompleted": 5,
+    "date": "2024-10-05T13:25:37.706Z"
+  },
+  {
+    "totalWorkTime": 300,
+    "totalBreakTime": 360,
+    "intervalsCompleted": 5,
+    "date": "2024-10-05T13:26:38.339Z"
+  },
+  {
+    "totalWorkTime": 360,
+    "totalBreakTime": 360,
+    "intervalsCompleted": 6,
+    "date": "2024-10-05T13:26:39.366Z"
+  },
+  {
+    "totalWorkTime": 60,
+    "totalBreakTime": 0,
+    "intervalsCompleted": 1,
+    "date": "2024-10-05T17:47:09.523Z"
+  },
+  {
+    "totalWorkTime": 60,
+    "totalBreakTime": 60,
+    "intervalsCompleted": 1,
+    "date": "2024-10-05T17:48:10.921Z"
+  },
+  {
+    "totalWorkTime": 120,
+    "totalBreakTime": 60,
+    "intervalsCompleted": 2,
+    "date": "2024-10-05T17:48:12.690Z"
+  },
+  {
+    "totalWorkTime": 60,
+    "totalBreakTime": 0,
+    "intervalsCompleted": 1,
+    "date": "2024-10-05T18:09:18.374Z"
+  },
+  {
+    "totalWorkTime": 60,
+    "totalBreakTime": 60,
+    "intervalsCompleted": 1,
+    "date": "2024-10-05T18:10:18.805Z"
+  },
+  {
+    "totalWorkTime": 120,
+    "totalBreakTime": 60,
+    "intervalsCompleted": 2,
+    "date": "2024-10-05T18:10:19.836Z"
+  },
+  {
+    "totalWorkTime": 120,
+    "totalBreakTime": 120,
+    "intervalsCompleted": 2,
+    "date": "2024-10-05T18:11:20.524Z"
+  },
+  {
+    "totalWorkTime": 180,
+    "totalBreakTime": 120,
+    "intervalsCompleted": 3,
+    "date": "2024-10-05T18:11:21.551Z"
+  },
+  {
+    "totalWorkTime": 180,
+    "totalBreakTime": 180,
+    "intervalsCompleted": 3,
+    "date": "2024-10-05T18:12:22.001Z"
+  },
+  {
+    "totalWorkTime": 240,
+    "totalBreakTime": 180,
+    "intervalsCompleted": 4,
+    "date": "2024-10-05T18:12:23.012Z"
+  },
+  {
+    "totalWorkTime": 60,
+    "totalBreakTime": 0,
+    "intervalsCompleted": 0,
+    "date": "2024-10-05T18:19:54.309Z"
+  },
+  {
+    "totalWorkTime": 60,
+    "totalBreakTime": 0,
+    "intervalsCompleted": 0,
+    "date": "2024-10-05T18:19:55.325Z"
+  },
+  {
+    "totalWorkTime": 120,
+    "totalBreakTime": 0,
+    "intervalsCompleted": 0,
+    "date": "2024-10-05T18:19:56.428Z"
+  },
+  {
+    "totalWorkTime": 120,
+    "totalBreakTime": 0,
+    "intervalsCompleted": 0,
+    "date": "2024-10-05T18:19:57.446Z"
+  },
+  {
+    "totalWorkTime": 180,
+    "totalBreakTime": 0,
+    "intervalsCompleted": 0,
+    "date": "2024-10-05T18:19:58.494Z"
+  },
+  {
+    "totalWorkTime": 180,
+    "totalBreakTime": 0,
+    "intervalsCompleted": 0,
+    "date": "2024-10-05T18:19:59.514Z"
+  },
+  {
+    "totalWorkTime": 240,
+    "totalBreakTime": 0,
+    "intervalsCompleted": 0,
+    "date": "2024-10-05T18:20:00.538Z"
+  },
+  {
+    "totalWorkTime": 240,
+    "totalBreakTime": 0,
+    "intervalsCompleted": 0,
+    "date": "2024-10-05T18:20:01.609Z"
+  },
+  {
+    "totalWorkTime": 300,
+    "totalBreakTime": 0,
+    "intervalsCompleted": 0,
+    "date": "2024-10-05T18:20:02.627Z"
+  },
+  {
+    "totalWorkTime": 300,
+    "totalBreakTime": 0,
+    "intervalsCompleted": 0,
+    "date": "2024-10-05T18:20:03.662Z"
+  },
+  {
+    "totalWorkTime": 360,
+    "totalBreakTime": 0,
+    "intervalsCompleted": 0,
+    "date": "2024-10-05T18:20:04.676Z"
+  },
+  {
+    "totalWorkTime": 360,
+    "totalBreakTime": 0,
+    "intervalsCompleted": 0,
+    "date": "2024-10-05T18:20:05.918Z"
+  },
+  {
+    "totalWorkTime": 420,
+    "totalBreakTime": 0,
+    "intervalsCompleted": 0,
+    "date": "2024-10-05T18:20:06.935Z"
+  },
+  {
+    "totalWorkTime": 420,
+    "totalBreakTime": 0,
+    "intervalsCompleted": 0,
+    "date": "2024-10-05T18:20:07.972Z"
+  },
+  {
+    "totalWorkTime": 480,
+    "totalBreakTime": 0,
+    "intervalsCompleted": 0,
+    "date": "2024-10-05T18:20:09.410Z"
+  },
+  {
+    "totalWorkTime": 480,
+    "totalBreakTime": 0,
+    "intervalsCompleted": 0,
+    "date": "2024-10-05T18:20:10.458Z"
+  },
+  {
+    "totalWorkTime": 540,
+    "totalBreakTime": 0,
+    "intervalsCompleted": 0,
+    "date": "2024-10-05T18:20:12.160Z"
+  },
+  {
+    "totalWorkTime": 540,
+    "totalBreakTime": 0,
+    "intervalsCompleted": 0,
+    "date": "2024-10-05T18:20:13.187Z"
+  },
+  {
+    "totalWorkTime": 600,
+    "totalBreakTime": 0,
+    "intervalsCompleted": 0,
+    "date": "2024-10-05T18:20:14.210Z"
+  },
+  {
+    "totalWorkTime": 600,
+    "totalBreakTime": 0,
+    "intervalsCompleted": 0,
+    "date": "2024-10-05T18:20:15.678Z"
+  },
+  {
+    "totalWorkTime": 660,
+    "totalBreakTime": 0,
+    "intervalsCompleted": 0,
+    "date": "2024-10-05T18:20:16.702Z"
+  },
+  {
+    "totalWorkTime": 660,
+    "totalBreakTime": 0,
+    "intervalsCompleted": 0,
+    "date": "2024-10-05T18:20:17.720Z"
+  },
+  {
+    "totalWorkTime": 720,
+    "totalBreakTime": 0,
+    "intervalsCompleted": 0,
+    "date": "2024-10-05T18:20:18.808Z"
+  },
+  {
+    "totalWorkTime": 720,
+    "totalBreakTime": 0,
+    "intervalsCompleted": 0,
+    "date": "2024-10-05T18:20:19.891Z"
+  },
+  {
+    "totalWorkTime": 780,
+    "totalBreakTime": 0,
+    "intervalsCompleted": 0,
+    "date": "2024-10-05T18:20:20.926Z"
+  },
+  {
+    "totalWorkTime": 60,
+    "totalBreakTime": 0,
+    "intervalsCompleted": 1,
+    "date": "2024-10-05T18:44:52.853Z"
+  },
+  {
+    "totalWorkTime": 60,
+    "totalBreakTime": 0,
+    "intervalsCompleted": 1,
+    "date": "2024-10-05T18:46:41.867Z"
+  },
+  {
+    "totalWorkTime": 60,
+    "totalBreakTime": 60,
+    "intervalsCompleted": 1,
+    "date": "2024-10-05T18:47:42.470Z"
+  },
+  {
+    "totalWorkTime": 120,
+    "totalBreakTime": 60,
+    "intervalsCompleted": 2,
+    "date": "2024-10-05T18:47:43.506Z"
+  },
+  {
+    "totalWorkTime": 60,
+    "totalBreakTime": 0,
+    "intervalsCompleted": 1,
+    "date": "2024-10-05T19:12:40.944Z"
+  },
+  {
+    "totalWorkTime": 60,
+    "totalBreakTime": 0,
+    "intervalsCompleted": 1,
+    "date": "2024-10-05T19:12:41.967Z"
+  },
+  {
+    "totalWorkTime": 120,
+    "totalBreakTime": 0,
+    "intervalsCompleted": 2,
+    "date": "2024-10-05T19:12:43.088Z"
+  },
+  {
+    "totalWorkTime": 120,
+    "totalBreakTime": 0,
+    "intervalsCompleted": 2,
+    "date": "2024-10-05T19:12:44.120Z"
+  },
+  {
+    "totalWorkTime": 180,
+    "totalBreakTime": 0,
+    "intervalsCompleted": 3,
+    "date": "2024-10-05T19:12:45.135Z"
+  },
+  {
+    "totalWorkTime": 180,
+    "totalBreakTime": 0,
+    "intervalsCompleted": 3,
+    "date": "2024-10-05T19:12:46.152Z"
+  },
+  {
+    "totalWorkTime": 240,
+    "totalBreakTime": 0,
+    "intervalsCompleted": 4,
+    "date": "2024-10-05T19:12:47.172Z"
+  },
+  {
+    "totalWorkTime": 240,
+    "totalBreakTime": 1,
+    "intervalsCompleted": 4,
+    "date": "2024-10-05T19:12:48.280Z"
+  },
+  {
+    "totalWorkTime": 300,
+    "totalBreakTime": 1,
+    "intervalsCompleted": 5,
+    "date": "2024-10-05T19:12:49.301Z"
+  },
+  {
+    "totalWorkTime": 300,
+    "totalBreakTime": 1,
+    "intervalsCompleted": 5,
+    "date": "2024-10-05T19:12:50.317Z"
+  },
+  {
+    "totalWorkTime": 360,
+    "totalBreakTime": 1,
+    "intervalsCompleted": 6,
+    "date": "2024-10-05T19:12:51.373Z"
+  },
+  {
+    "totalWorkTime": 360,
+    "totalBreakTime": 1,
+    "intervalsCompleted": 6,
+    "date": "2024-10-05T19:12:52.405Z"
+  },
+  {
+    "totalWorkTime": 420,
+    "totalBreakTime": 1,
+    "intervalsCompleted": 7,
+    "date": "2024-10-05T19:12:53.522Z"
+  },
+  {
+    "totalWorkTime": 420,
+    "totalBreakTime": 1,
+    "intervalsCompleted": 7,
+    "date": "2024-10-05T19:12:54.535Z"
+  },
+  {
+    "totalWorkTime": 480,
+    "totalBreakTime": 1,
+    "intervalsCompleted": 8,
+    "date": "2024-10-05T19:12:55.548Z"
+  },
+  {
+    "totalWorkTime": 60,
+    "totalBreakTime": 0,
+    "intervalsCompleted": 1,
+    "date": "2024-10-05T19:15:08.628Z"
+  },
+  {
+    "totalWorkTime": 60,
+    "totalBreakTime": 60,
+    "intervalsCompleted": 1,
+    "date": "2024-10-05T19:15:09.645Z"
+  },
+  {
+    "totalWorkTime": 120,
+    "totalBreakTime": 60,
+    "intervalsCompleted": 2,
+    "date": "2024-10-05T19:15:10.663Z"
+  },
+  {
+    "totalWorkTime": 120,
+    "totalBreakTime": 120,
+    "intervalsCompleted": 2,
+    "date": "2024-10-05T19:15:11.676Z"
+  },
+  {
+    "totalWorkTime": 180,
+    "totalBreakTime": 120,
+    "intervalsCompleted": 3,
+    "date": "2024-10-05T19:15:12.688Z"
+  },
+  {
+    "totalWorkTime": 180,
+    "totalBreakTime": 180,
+    "intervalsCompleted": 3,
+    "date": "2024-10-05T19:15:13.699Z"
+  },
+  {
+    "totalWorkTime": 240,
+    "totalBreakTime": 180,
+    "intervalsCompleted": 4,
+    "date": "2024-10-05T19:15:14.716Z"
+  },
+  {
+    "totalWorkTime": 240,
+    "totalBreakTime": 300,
+    "intervalsCompleted": 4,
+    "date": "2024-10-05T19:15:15.731Z"
+  },
+  {
+    "totalWorkTime": 300,
+    "totalBreakTime": 300,
+    "intervalsCompleted": 5,
+    "date": "2024-10-05T19:15:16.769Z"
+  },
+  {
+    "totalWorkTime": 300,
+    "totalBreakTime": 360,
+    "intervalsCompleted": 5,
+    "date": "2024-10-05T19:15:17.781Z"
+  },
+  {
+    "totalWorkTime": 360,
+    "totalBreakTime": 360,
+    "intervalsCompleted": 6,
+    "date": "2024-10-05T19:15:18.797Z"
+  },
+  {
+    "totalWorkTime": 360,
+    "totalBreakTime": 420,
+    "intervalsCompleted": 6,
+    "date": "2024-10-05T19:15:19.809Z"
+  },
+  {
+    "totalWorkTime": 60,
+    "totalBreakTime": 0,
+    "intervalsCompleted": 1,
+    "date": "2024-10-05T19:16:50.771Z"
+  },
+  {
+    "totalWorkTime": 60,
+    "totalBreakTime": 0,
+    "intervalsCompleted": 1,
+    "date": "2024-10-06T10:16:07.403Z"
+  },
+  {
+    "totalWorkTime": 60,
+    "totalBreakTime": 60,
+    "intervalsCompleted": 1,
+    "date": "2024-10-06T10:17:07.910Z"
+  },
+  {
+    "totalWorkTime": 120,
+    "totalBreakTime": 60,
+    "intervalsCompleted": 2,
+    "date": "2024-10-06T10:17:09.090Z"
+  },
+  {
+    "totalWorkTime": 60,
+    "totalBreakTime": 0,
+    "intervalsCompleted": 1,
+    "date": "2024-10-06T10:18:43.674Z"
+  },
+  {
+    "totalWorkTime": 60,
+    "totalBreakTime": 60,
+    "intervalsCompleted": 1,
+    "date": "2024-10-06T10:19:44.207Z"
+  },
+  {
+    "totalWorkTime": 120,
+    "totalBreakTime": 60,
+    "intervalsCompleted": 2,
+    "date": "2024-10-06T10:19:45.246Z"
+  },
+  {
+    "totalWorkTime": 60,
+    "totalBreakTime": 0,
+    "intervalsCompleted": 1,
+    "date": "2024-10-06T10:25:42.657Z"
+  },
+  {
+    "totalWorkTime": 60,
+    "totalBreakTime": 60,
+    "intervalsCompleted": 1,
+    "date": "2024-10-06T10:26:43.092Z"
+  },
+  {
+    "totalWorkTime": 120,
+    "totalBreakTime": 60,
+    "intervalsCompleted": 2,
+    "date": "2024-10-06T10:26:44.134Z"
+  },
+  {
+    "totalWorkTime": 120,
+    "totalBreakTime": 120,
+    "intervalsCompleted": 2,
+    "date": "2024-10-06T10:27:44.650Z"
+  },
+  {
+    "totalWorkTime": 180,
+    "totalBreakTime": 120,
+    "intervalsCompleted": 3,
+    "date": "2024-10-06T10:27:45.704Z"
+  },
+  {
+    "totalWorkTime": 60,
+    "totalBreakTime": 0,
+    "intervalsCompleted": 1,
+    "date": "2024-10-06T10:32:51.667Z"
+  },
+  {
+    "totalWorkTime": 60,
+    "totalBreakTime": 60,
+    "intervalsCompleted": 1,
+    "date": "2024-10-06T10:34:52.696Z"
+  },
+  {
+    "totalWorkTime": 120,
+    "totalBreakTime": 60,
+    "intervalsCompleted": 2,
+    "date": "2024-10-06T10:35:53.363Z"
   }
 ]

@@ -1,6 +1,8 @@
 const { displayTime } = require("./displayUtils");
 const { saveSessionHistory } = require("./sessionUtils");
-
+const player = require("play-sound")((opts = {}));
+const notifier = require("node-notifier");
+const path = require("path");
 // Hard coded values for work duration, short break duration, and long break duration
 let workDuration = 1 * 60; // 1 minute for testing purposes
 let shortBreakDuration = 1 * 60; // 1 minute for testing purposes
@@ -86,21 +88,58 @@ function resetTimer() {
  * @returns {void}
  */
 function switchInterval() {
+  // Toggle work/break interval and update total times
   if (isWorkInterval) {
-    totalWorkTime += workDuration; // Update total work time
-    console.log("Work interval completed 👏! Taking short break 😩😪🥱😴");
-    intervalCount++; // Increment the interval count
+    totalWorkTime += workDuration; // Add to total work time
+    console.log("Work interval completed 👏! Taking a short break 😩😪🥱😴");
+
+    // Set the next interval as break
     remainingTime =
       intervalCount % 4 === 0 ? longBreakDuration : shortBreakDuration;
+
+    // Increment the interval count after a work period ends
+    intervalCount++;
+
+    // Play sound and show notification for break start
+    player.play("../Sounds/work.wav", (err) => {
+      if (err) console.error("Error playing sound:", err);
+    });
+    notifier.notify({
+      title: "Break Time!",
+      message: "Time for a break. Relax and recharge!",
+      sound: true,
+      wait: true,
+    });
   } else {
     totalBreakTime +=
       intervalCount % 4 === 0 ? longBreakDuration : shortBreakDuration;
-    console.log("Short break is over 🥳! Back to work 💼💻💯");
+    console.log("Break is over 🥳! Back to work 💼💻💯");
+
+    // Set the next interval as work
+    remainingTime = workDuration;
+
+    // Play sound and show notification for work start
+    player.play(
+      path.join(__dirname, "..", "..", "Sounds", "break.wav"),
+      (err) => {
+        if (err) console.error("Error playing sound:", err);
+      }
+    );
+    notifier.notify({
+      title: "Work Time!",
+      message: "Break is over. Time to focus!",
+      sound: true,
+      wait: true,
+    });
   }
-  isWorkInterval = !isWorkInterval; // Toggle work and break interval
+
+  // Toggle the work/break interval after completing the current one
+  isWorkInterval = !isWorkInterval;
+
+  // Update the display after switching intervals
   displayTimer();
 
-  // Save the session history after each interval switch
+  // Save session history after switching intervals
   saveSessionHistory(totalWorkTime, totalBreakTime, intervalCount);
 }
 
@@ -129,7 +168,7 @@ function handleUserInput(command) {
                                       -start: start the timer
                                       -pause: pause the timer
                                       -reset: reset the timer
-                                      -status: shows the current timer
+                                      -status: shows the session history
                                       -help: shows available commands`);
       break;
     default:
