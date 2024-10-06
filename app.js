@@ -9,7 +9,7 @@ const rl = readline.createInterface({
 
 loadSessionHistory(); // Load previous session history
 
-console.log("Enter a command (start, pause, reset, status, help):");
+console.log("Enter a command (start,status, help):");
 
 rl.on("line", (input) => {
   handleUserInput(input);
