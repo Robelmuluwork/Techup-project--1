@@ -35,7 +35,10 @@ Navigate to the project directory:
    ````bash
    cd Techup-project--1
    ````
-
+install  packages
+````bash
+npm install
+````
 ## USAGE
 1.Start the timer by running the application:
    ````bash
